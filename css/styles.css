@@ -252,4 +252,43 @@
   
 /*------------------------------------------LOGIN ------------------------------------------------------*/
 
-  
+/*------------------------------------------ACTUALIZAR DATOS ------------------------------------------------------*/
+
+
+.actualizar-datos-page {
+    padding: 0 0 0;
+    margin: auto;
+  }
+  .form-actualizar-datos {
+    position: relative;
+    z-index: 1;
+    background: #B4C5D2;
+    width: 450px;
+    height: 500px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
+
+  }
+  .actualizar-datos-form input {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: #E6E6E6;
+    border:0;
+    margin: 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .actualizar-datos-form{
+    margin-top: 40px;
+    padding: 5px;
+  }
+  .actualizar-datos .message{
+    margin: 10px 10px 10px;
+    padding: 5px;
+    text-align: center;
+  }
+
+/*------------------------------------------ACTUALIZAR DATOS ------------------------------------------------------*/
