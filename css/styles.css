@@ -14,25 +14,27 @@
     height: 75px;
     width:100vw;
   }
+
   .header {
     height: 100%;
-  }
-  .header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
   }
   .main-nav{
     display: inline-flex;
     float:right;
   }
-  .main-nav ul li{
-    display: flex;
+  .main-nav .btn_header{
     margin-top:10px;
+    margin: 5px 10px;
     color: black;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
   }
+
 
 
 
@@ -439,3 +441,57 @@
   }
 
 /*------------------------------------------GENERAR REPORTES ------------------------------------------------------*/
+
+/*------------------------------------------INICIO DEL SISTEMA (una vez logueado)------------------------------------------------------*/
+
+
+.titulo-reg-personas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    background: #B4C5D2;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+.tit-reg-personas{
+    color: black;
+    text-align: center;
+    font-size: 45px; 
+    font-weight: bold;
+    justify-content: center;
+    text-decoration-style: wavy;
+    font-family: 'IBM Plex Sans ', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-btnST-Delegacion{
+    margin-top: 20px;
+    padding: 15px 50px;
+    width: 300px;
+    background-color: #008CBA;
+  }
+  .btn-btnST-Delegacion:hover {
+    color: white;
+  }
+  .parrafo{
+    display: flex;
+  }
+
+  .parrafo img {
+    width: 300px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+  }
+
+  /*------------------------------------------INICIO DEL SISTEMA (una vez logueado)------------------------------------------------------*/
