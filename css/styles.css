@@ -1,7 +1,7 @@
   
 
   body {
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'IBM Plex Sans ', sans-serif;
     background-color: #436784;
     }
 
@@ -31,13 +31,10 @@
     display: flex;
     margin-top:10px;
     color: black;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
-    padding: 90vw;
+    font-family: 'IBM Plex Sans', sans-serif;
   }
 
 
- 
-  
 
   /*----------------------------------------- HEADER --------------------------------------------------------- */
 
@@ -114,12 +111,12 @@
 
 .titulo{
     color: black;
-    height: 100%;
     text-align: center;
     font-size: 40px; 
+    font-weight: bold;
     justify-content: center;
     text-decoration-style: wavy;
-    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-family: 'IBM Plex Sans ', sans-serif;
     margin-top: 10px;
 }
 
@@ -130,8 +127,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    margin-left: 50px;
+    width: auto;
     margin-top: 20px;
   }
 
@@ -139,36 +135,37 @@
 /*------------------------------------------LOGIN ------------------------------------------------------*/
 
 .login-page {
-    width: 360px;
-    padding: 8% 0 0;
+    padding: 0 0 0;
     margin: auto;
   }
   .form {
     position: relative;
     z-index: 1;
     background: #B4C5D2;
-    max-width: 360px;
+    width: 400px;
+    height: 400px;
     margin: 0 auto 100px;
-    padding: 45px;
+    padding: 10px;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    
 
   }
   .form input {
-    font-family: "Roboto", sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     background: #E6E6E6;
     border:0;
-    margin: 5px 5px 5px;
+    margin: 10px 10px 10px;
     font-size: 20px;
     text-align: center;
   }
 
   .login-form{
-    margin: auto;
+    margin-top: 40px;
     padding: 5px;
   }
   .login-form .message{
-    margin: 5px 5px 5px;
+    margin: 10px 10px 10px;
     padding: 5px;
     text-align: center;
   }
@@ -199,6 +196,10 @@
   
   .boton:hover,.boton:active,.boton:focus {
     background: #2D9BF0;
+  }
+
+  .form .titulo{
+    margin-top: 10px;
   }
   .form .message {
     color: black;
