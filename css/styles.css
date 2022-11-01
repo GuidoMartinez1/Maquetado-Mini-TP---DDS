@@ -357,4 +357,10 @@
     margin-top: 40px;
     padding: 5px;
   }
+  .form-registrarse .message {
+    color: black;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+  }
 /*------------------------------------------REGISTRARSE ------------------------------------------------------*/
