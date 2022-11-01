@@ -6,7 +6,7 @@
     }
 
 
-  
+
   
   /* ----------------------------------------- HEADER --------------------------------------------------------- */
   header {
@@ -364,3 +364,78 @@
     font-size: 12px;
   }
 /*------------------------------------------REGISTRARSE ------------------------------------------------------*/
+
+/*------------------------------------------NO DISPONE DELEGACIONES PENDIENTES ------------------------------------------------------*/
+
+.titulo-del{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+    background: #B4C5D2;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+.titulo-del .titulo-delegaciones{
+    color: black;
+    text-align: center;
+    font-size: 45px; 
+    font-weight: bold;
+    justify-content: center;
+    text-decoration-style: wavy;
+    font-family: 'IBM Plex Sans ', sans-serif;
+    margin-top: 10px;
+}
+
+/*------------------------------------------NO DISPONE DELEGACIONES PENDIENTES ------------------------------------------------------*/
+
+/*------------------------------------------GENERAR REPORTES ------------------------------------------------------*/
+
+.titulo-generar-reportes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+    background: #B4C5D2;
+    width: 450px;
+    height: 300px;
+    margin: 0 auto 100px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+.tit-generar-reportes{
+    color: black;
+    text-align: center;
+    font-size: 45px; 
+    font-weight: bold;
+    justify-content: center;
+    text-decoration-style: wavy;
+    font-family: 'IBM Plex Sans ', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.btn-btnST-Reportes{
+    margin-top: 20px;
+    padding: 15px 50px;
+    width: 300px;
+    background-color: #008CBA;
+  }
+  .btn-btnST-Reportes:hover {
+    color: white;
+  }
+
+/*------------------------------------------GENERAR REPORTES ------------------------------------------------------*/
